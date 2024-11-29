@@ -71,8 +71,11 @@ body {
   text-align: center;
   font-size: 12px;
 }
-
-/* estilos al titulo principal de la carta */
+.first-card .link-git {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--card-bg);
+}
 
 .product-item img {
   width: 2.5rem; /* 40px */
@@ -114,6 +117,9 @@ body {
   padding: 8px;
   border-radius: var(--border-radius);
   color: var(--color-white);
+}
+.card-info .total h3 {
+  min-width: 112px;
 }
 .card-info .btn {
   background: var(--bg-white);

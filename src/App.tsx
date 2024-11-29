@@ -28,7 +28,14 @@ function App() {
             ))}
           </section>
           <div className="card-info">
-            <p className="first-p-footer">@Gadiel Monteabaro</p>
+            <p className="first-p-footer">© 2024 Gadiel Monteabaro</p>
+            <a
+              href="https://github.com/Gadiel-Monteabaro/order-app"
+              className="link-git"
+              target="_blank"
+            >
+              <i className="ri-github-fill">GitHub</i>
+            </a>
           </div>
         </div>
         <div className="card second-card">
