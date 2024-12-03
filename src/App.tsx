@@ -28,7 +28,9 @@ function App() {
             ))}
           </section>
           <div className="card-info">
-            <p className="first-p-footer">© 2024 Gadiel Monteabaro</p>
+            <p className="first-p-footer">
+              &copy; {new Date().getFullYear()} Gadiel Monteabaro
+            </p>
             <a
               href="https://github.com/Gadiel-Monteabaro/order-app"
               className="link-git"

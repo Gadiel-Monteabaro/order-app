@@ -9,7 +9,6 @@
   --card-bg: #1e2022;
   --card-color: #1e2022;
   --bg-white: #fcfcfc;
-  --color-white: #fcfcfc;
   --item-bg: #2a2b2f;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
   --shadow-white: 0 2px 3px -1px rgba(255, 255, 255, 0.2),
@@ -49,7 +48,6 @@ body {
   grid-template-rows: 4fr 1fr;
   min-width: 400px;
   min-height: 550px;
-  /*box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);*/
   box-shadow: var(--shadow);
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -84,7 +82,7 @@ body {
 }
 .product-item {
   background: var(--item-bg);
-  display: flex; /* elementos en linea imagen, nombrenp de producto , precio */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
