@@ -6,7 +6,7 @@ export function useApp() {
   // Función para obtener el estado inicial de la orden
   const initialOrder = (): OrderItem[] => {
     // Obtener el valor almacenado en el localStorage
-    const localStorageOrder = localStorage.getItem("order");
+    const localStorageOrder = localStorage.getItem("orden");
     // Si existe el valor retornar el arreglo, sino, un arreglo vacio
     return localStorageOrder ? JSON.parse(localStorageOrder) : [];
   };
